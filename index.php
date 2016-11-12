@@ -1,6 +1,4 @@
-<html>
-    <head></head><body>
-    <?php 
+<?php 
 if(isset($_REQUEST['c_id'])) {
     $country_id = $_REQUEST['c_id'];
 }
@@ -33,5 +31,4 @@ function getIndex($name, $array){
     }
     return null;
 }
-?></body>
-</html>
+?>
